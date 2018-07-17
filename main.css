@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Style title section*/
+
+h2.title{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.watch{
+    background-color: darkgrey;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+/*Style display section*/
+
+.display{
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 4px;
+    background-color: aliceblue;
+    margin: 4px;
+}
+
+/*Style button section*/
+
+section.button-section{
+    display: flex;
+}
+
+section.button-section .button{
+    flex-grow: 1;
+    background-color: ghostwhite;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 4px;
+    padding: 10px;
+
+}
